@@ -15,9 +15,9 @@ public class Main {
 //        for (int i = 0; i < 3; i++) {
 //            System.out.println(NamesOfAnimals.CAT.getName());
 //        }
-        int random = (int)Math.random()*10;
+        double random = Math.random()*3;
         System.out.println("Random number is: " + random);
-        int randInt = (int)random;
+        int randInt = (int)random+1;
         System.out.println("Random number is: " + randInt);
         switch (randInt) {
             case 1:
